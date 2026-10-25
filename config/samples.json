@@ -1,0 +1,23 @@
+[
+  {
+    "filename": "sample_1_corrugated_box.png",
+    "title": "样张1: 外贸五层重型瓦楞纸箱生产任务单 (0201平口箱 / K=A)",
+    "label_en": "Sample 1: Heavy-duty 5-Ply Corrugated Box Order (0201 RSC / AB-Flute / K=A)",
+    "category": "工业外箱",
+    "desc": "典型工业大箱，包含长宽高、五层AB瓦、打钉工艺、耐破强度要求。"
+  },
+  {
+    "filename": "sample_2_gift_box.png",
+    "title": "样张2: 智能数码穿戴彩盒定制规格单 (天地盖 / 三层E瓦)",
+    "label_en": "Sample 2: Consumer Electronics Premium Rigid Gift Box (Telescope / E-Flute / 350g C1S)",
+    "category": "精品彩盒",
+    "desc": "高档消费电子包装，包含350g单铜纸、专色胶印、磁吸结构与局部UV。"
+  },
+  {
+    "filename": "sample_3_ecommerce_mailer.png",
+    "title": "样张3: 电商供应链飞机盒发货凭单 (0427自锁款 / 三层B瓦)",
+    "label_en": "Sample 3: E-Commerce Self-Locking Mailer Box Order (0427 Die-Cut / B-Flute)",
+    "category": "电商包装",
+    "desc": "电商快包场景，包含全模切刀模号、自锁结构、水墨环保印刷。"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "_comment": "Domain vocabulary used by the rule-based fallback extractor. Order matters: more specific entries first.",
+  "flute_types": ["五层AB瓦", "五层BC瓦", "三层B瓦", "三层E瓦", "七层AAA瓦"],
+  "flute_layer_fallbacks": ["三层", "五层", "七层"],
+  "box_type_keywords": [
+    ["0201", "0201 国标标准平口开槽纸箱"],
+    ["0427", "0427 模切自锁折叠飞机盒"],
+    ["天地盖", "天地盖精品盒"],
+    ["飞机盒", "折叠飞机盒"]
+  ],
+  "special_requirement_keywords": ["打托", "物性", "随货", "发运", "备注", "耐破", "抗压", "检验"]
+}

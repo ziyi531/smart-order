@@ -1,0 +1,23 @@
+{
+  "file": "data/samples/sample_3_ecommerce_mailer.png",
+  "notes": "Address ends in 分拣库 on the image; OCR reads it as 分栋库, so this field measures OCR error.",
+  "fields": {
+    "header.customer_name": "杭州云朵家纺供应链有限公司",
+    "header.order_no": ["YD-202609-019", "KPP-EC-2026-019"],
+    "header.contact_person": "李经理",
+    "header.contact_phone": "137-0000-1122",
+    "header.delivery_date": "2026-09-19",
+    "header.delivery_address": "浙江省杭州市萧山区瓜沥镇仓储物流中心8号分拣库",
+    "carton.box_type": "0427",
+    "carton.dimensions.length_mm": 320,
+    "carton.dimensions.width_mm": 220,
+    "carton.dimensions.height_mm": 100,
+    "carton.die_cut_code": "DM-0427-322210",
+    "material.flute_type": "三层B瓦",
+    "material.paper_combination": "T=T",
+    "commercial.total_amount": 14800.00
+  },
+  "items": [
+    {"item_name": "0427自锁飞机盒", "quantity": 8000, "unit_price": 1.85, "subtotal": 14800.00}
+  ]
+}

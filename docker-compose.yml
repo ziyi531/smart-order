@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  smart-order-app:
+    build: .
+    container_name: smart_order_packaging_app
+    ports:
+      - "8501:8501"  # Streamlit Web UI
+      - "8000:8000"  # FastAPI Backend API
+    environment:
+      # Connect to Ollama running on the host machine
+      - OLLAMA_API_BASE=http://host.docker.internal:11434/v1
+      - LLM_MODEL=qwen2.5:7b
+      - OCR_ENGINE=auto
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

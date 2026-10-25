@@ -1,0 +1,22 @@
+{
+  "file": "data/samples/sample_1_corrugated_box.png",
+  "notes": "order_no accepts the customer PO or the factory job no. (schema allows either).",
+  "fields": {
+    "header.customer_name": "苏州汇川智能电气系统有限公司",
+    "header.order_no": ["HC-PO-202609-0881", "KPP-2026-0915-082"],
+    "header.contact_person": "王工",
+    "header.contact_phone": "138-1234-5678",
+    "header.delivery_date": "2026-09-28",
+    "header.delivery_address": "江苏省苏州市相城区智能制造产业园B栋3号门仓库",
+    "carton.box_type": "0201",
+    "carton.dimensions.length_mm": 530,
+    "carton.dimensions.width_mm": 380,
+    "carton.dimensions.height_mm": 420,
+    "material.flute_type": "五层AB瓦",
+    "material.paper_combination": "K=A",
+    "commercial.total_amount": 23800.00
+  },
+  "items": [
+    {"item_name": "五层重型变频器外箱", "quantity": 3500, "unit_price": 6.80, "subtotal": 23800.00}
+  ]
+}

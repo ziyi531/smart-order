@@ -1,0 +1,6 @@
+[
+  {"id": "SAP_S4HANA", "label": "SAP S/4HANA (Manufacturing Module)", "bill_prefix": "SAP"},
+  {"id": "Kingdee_K3_Cloud", "label": "Kingdee K/3 Cloud", "bill_prefix": "KD"},
+  {"id": "Oracle_NetSuite", "label": "Oracle NetSuite", "bill_prefix": "NS"},
+  {"id": "Yonyou_U8", "label": "Yonyou U8 / NC", "bill_prefix": "YY"}
+]

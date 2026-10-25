@@ -1,0 +1,21 @@
+{
+  "file": "data/samples/sample_2_gift_box.png",
+  "notes": "order_no accepts the customer PO or the factory job no.",
+  "fields": {
+    "header.customer_name": "深圳市灵犀数码穿戴科技有限公司",
+    "header.order_no": ["LX-PO-2026-9941A", "KPP-OEM-2026-9941A"],
+    "header.contact_person": "陈主管",
+    "header.contact_phone": "139-8765-4321",
+    "header.delivery_date": "2026-09-22",
+    "header.delivery_address": "深圳市宝安区福永凤凰第三工业区C栋3楼组装车间",
+    "carton.box_type": "天地盖",
+    "carton.dimensions.length_mm": 185,
+    "carton.dimensions.width_mm": 120,
+    "carton.dimensions.height_mm": 55,
+    "material.flute_type": "三层E瓦",
+    "commercial.total_amount": 42000.00
+  },
+  "items": [
+    {"item_name": "智能穿戴包装彩盒", "quantity": 10000, "unit_price": 4.20, "subtotal": 42000.00}
+  ]
+}
